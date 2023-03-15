@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+body::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+
+/* Body Header */
+
+#sample {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(https://images.pexels.com/photos/2294135/pexels-photo-2294135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    padding-top: 1.2rem;
+}
+
+#Layout {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(https://images.pexels.com/photos/2294135/pexels-photo-2294135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    padding-top: 1.2rem;
+}
+
+.Text-container{
+    color:white;
+    text-align: left;
+    margin-left: 10%;
+    margin-top:5%;
+}
+
+
+.heading-section{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.no-list-style{
+    list-style: none;
+}
+
+.no-list-style li {
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.no-list-style li {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.horizontal-list {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+
+#footer1 {
+    background-color: #0abcf9;
+    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    color: white;
+    padding-bottom: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#footer2 {
+    background-color: black;
+  
+    color: white;
+    padding-bottom: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
